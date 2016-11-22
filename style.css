@@ -1,0 +1,18 @@
+
+
+
+#nom {
+	text-transform: uppercase;
+}
+
+.coordonees{
+	background-color: navy;
+}
+
+.coordonees p {
+	display: inline-block;
+	
+	color: white;
+
+
+}
