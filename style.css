@@ -1,18 +1,63 @@
+/*
+	configuration générale
+	wkhtmltopdf
+*/
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+		font-size: 62.5%;
+	}
+
+	body {
+		font-size: 1.5rem;
+		background-color: #47b5b5;
+	}
+
+	header, main, footer {
+		max-width: 95rem;
+		margin: auto;
+		padding: 0rem 2rem ;
+		padding-top: 2rem;
+	
+	}	
 
 
+.section {
+	padding-top: 2rem;
+}
+
+#nom, #prenom {
+	display: inline-block;
+	font-size: 2rem;
+	
+}
 
 #nom {
 	text-transform: uppercase;
 }
 
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
 .coordonees{
 	background-color: navy;
+	color: white;
+	text-align: center;
+	font-size: 2rem;
 }
 
 .coordonees p {
 	display: inline-block;
+	margin-right: 2rem;
 	
-	color: white;
+	
 
 
 }
