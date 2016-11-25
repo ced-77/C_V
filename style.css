@@ -39,6 +39,10 @@
 	text-transform: uppercase;
 }
 
+#permis {
+	text-align: right;
+}
+
 
 
 h1 {
@@ -56,8 +60,28 @@ h1 {
 .coordonees p {
 	display: inline-block;
 	margin-right: 2rem;
-	
-	
+}
 
+.periode, .entreprise, .ecole_diplome {
+	display: inline-block;
+}
 
+.entreprise, .ecole_diplome {
+	width: 84%;
+}
+
+.periode {
+	vertical-align: top;
+	width: 15%;
+	text-align:center;
+	/*margin: auto;*/
+	
+}
+
+.date, .nom_entreprise{
+	font-weight: bold;
+}
+
+article.experiences, article.formations {
+	margin-bottom: 1rem;
 }
