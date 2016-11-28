@@ -1,6 +1,6 @@
 /*
 	configuration générale
-	wkhtmltopdf
+	
 */
 	* {
 		margin: 0;
@@ -13,7 +13,7 @@
 
 	body {
 		font-size: 1.5rem;
-		background-color: #47b5b5;
+		background-color: white;
 	}
 
 	header, main, footer {
@@ -22,66 +22,205 @@
 		padding: 0rem 2rem ;
 		padding-top: 2rem;
 	
-	}	
+	}
+
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	h2 {
+		color : red;
+		font-size: 2rem;
+		margin-bottom: .5rem;
+	}
+
+	.section {
+		padding-top: 2rem;
+	}
+
+	.civilite, #langages, #experiences, #formations, #centres_interets {
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
 
 
-.section {
-	padding-top: 2rem;
-}
-
-#nom, #prenom {
-	display: inline-block;
-	font-size: 2rem;
-	
-}
-
-#nom {
-	text-transform: uppercase;
-}
-
-#permis {
-	text-align: right;
-}
 
 
 
-h1 {
-	text-align: center;
-	margin-bottom: 1rem;
-}
+/*
+	Presentation
+*/
 
-.coordonees{
-	background-color: navy;
-	color: white;
-	text-align: center;
-	font-size: 2rem;
-}
+	#nom, #prenom {
+		display: inline-block;
+		font-size: 2rem;
+		font-weight: bold;
+		
+	}
 
-.coordonees p {
-	display: inline-block;
-	margin-right: 2rem;
-}
+	#nom {
+		text-transform: uppercase;
+	}
 
-.periode, .entreprise, .ecole_diplome {
-	display: inline-block;
-}
+	#permis {
+		text-align: right;
+	}
 
-.entreprise, .ecole_diplome {
-	width: 84%;
-}
+	.coordonees{
+		background-color: navy;
+		color: white;
+		text-align: center;
+		font-size: 2rem;
+	}
 
-.periode {
-	vertical-align: top;
-	width: 15%;
-	text-align:center;
-	/*margin: auto;*/
-	
-}
+	.coordonees p {
+		display: inline-block;
+		margin-right: 2rem;
+	}
 
-.date, .nom_entreprise{
-	font-weight: bold;
-}
 
-article.experiences, article.formations {
-	margin-bottom: 1rem;
-}
+/*
+	Configuration des langages
+*/
+
+	#partie1, #partie2 {
+		display: inline-block;
+		
+	}
+
+	#partie1 {
+		left: 5rem;
+	}
+
+	#partie2 {
+		right: 5rem;
+	}
+
+
+	.langages, .conteneur {
+		-webkit-border-radius: 5rem;
+		-moz-border-radius: 5rem;
+		border-radius: 5rem; 
+
+	}
+
+
+	.conteneur {
+		border: .1rem solid #666;
+	    width: 30rem;
+	    height: 2rem;
+	    margin-bottom: .5rem;
+	    
+	}
+
+
+	#barreHtml {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:75%;
+	}
+
+	#barreCss {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:70%;
+	}
+
+	#barreJavascript {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:60%;
+	}
+
+	#barreJquery {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:60%;
+	}
+
+	#barreAjax {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:50%;
+	}
+
+	#barrePhp {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:75%;
+	}
+
+	#barreSql {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:70%;
+	}
+
+	#barreGit {
+		background: navy;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:60%;
+	}
+
+
+
+
+/*
+	Configuration de l'experience par les entreprises et formation
+*/
+
+	.periode, .entreprise, .nom_entreprise, .poste, .ecole_diplome {
+		display: inline-block;
+	}
+
+	.entreprise, .ecole_diplome {
+		width: 84%;
+	}
+
+	.periode {
+		vertical-align: top;
+		width: 15%;
+		text-align:center;
+		/*margin: auto;*/
+		
+	}
+
+	.poste {
+		margin-left : 2rem;
+	}
+
+	.date, .nom_entreprise{
+		font-weight: bold;
+	}
+
+	article.experiences, article.formations {
+		margin-bottom: 1rem;
+	}
+
+
+/*
+	Configuration des centres d'interets
+*/
+
+
+
+
