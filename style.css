@@ -31,9 +31,12 @@
 	}
 
 	h2 {
-		color : red;
+		color : white;
 		font-size: 2rem;
 		margin-bottom: .5rem;
+		background-color: #1287c5;
+		width: 100%;
+		padding-left: 2rem;
 	}
 
 	.section {
@@ -44,6 +47,11 @@
 		margin-left: 5%;
 		margin-right: 5%;
 
+	}
+
+	a {
+		text-decoration: none;
+		color:white;
 	}
 
 
@@ -86,39 +94,54 @@
 	Configuration des langages
 */
 
-	#partie1, #partie2 {
+	#partie1, #partie2, #partie3 {
 		display: inline-block;
+		vertical-align: top;
 		
 	}
 
-	#partie1 {
+	/*#partie1 {
 		left: 5rem;
 	}
 
-	#partie2 {
+	#partie3 {
 		right: 5rem;
-	}
+	}*/
 
 
 	.langages, .conteneur {
-		-webkit-border-radius: 5rem;
-		-moz-border-radius: 5rem;
-		border-radius: 5rem; 
+		-webkit-border-radius: 0 5rem 5rem 0; /* ne declare le radius que sur la partie droite */
+		-moz-border-radius: 0 5rem 5rem 0; /* ne declare le radius que sur la partie droite */
+		border-radius: 0 5rem 5rem 0; /* ne declare le radius que sur la partie droite */
 
+	}
+
+	.superConteneur {
+		height: 3rem;
+		width:28rem;
+		margin-bottom: .5rem;
+		font-size: 2.5rem;
+	}
+
+	img {
+		display: inline-block;
+		height: 100%;
+		width: 2rem;
 	}
 
 
 	.conteneur {
+		display: inline-block;
 		border: .1rem solid #666;
-	    width: 30rem;
-	    height: 2rem;
-	    margin-bottom: .5rem;
+	    width: 89%;
+	    height: 100%;
+	    vertical-align: top;
 	    
 	}
 
-
 	#barreHtml {
-		background: navy;
+		background: #e44c28;
+		/*display: inline-block;*/
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -126,7 +149,7 @@
 	}
 
 	#barreCss {
-		background: navy;
+		background: #1287c5;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -134,7 +157,7 @@
 	}
 
 	#barreJavascript {
-		background: navy;
+		background: #e6a12a;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -142,7 +165,7 @@
 	}
 
 	#barreJquery {
-		background: navy;
+		background: #c34144;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -150,7 +173,7 @@
 	}
 
 	#barreAjax {
-		background: navy;
+		background: #057dc5;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -158,7 +181,7 @@
 	}
 
 	#barrePhp {
-		background: navy;
+		background: #8ac71a;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -166,7 +189,7 @@
 	}
 
 	#barreSql {
-		background: navy;
+		background: #4474ca;
 		color : white;
 		text-align: center;
 	    height:100%;
@@ -174,13 +197,20 @@
 	}
 
 	#barreGit {
-		background: navy;
+		background: #f44f2b;
 		color : white;
 		text-align: center;
 	    height:100%;
 	    width:60%;
 	}
 
+	#barreBootstrap {
+		background: #602c4f;
+		color : white;
+		text-align: center;
+	    height:100%;
+	    width:50%;
+	}
 
 
 
