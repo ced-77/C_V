@@ -19,10 +19,12 @@
 	header, main, footer {
 		max-width: 95rem;
 		margin: auto;
-		padding: 0rem 2rem ;
+		/*padding: 0rem 2rem ;*/
 		padding-top: 2rem;
+		background-color: whitesmoke;
 	
 	}
+
 
 	h1 {
 		font-size: 3rem;
@@ -33,7 +35,8 @@
 	h2 {
 		color : white;
 		font-size: 2rem;
-		margin-bottom: .5rem;
+		margin-bottom: 1rem;
+		margin-top: .5rem;
 		background-color: #1287c5;
 		width: 100%;
 		padding-left: 2rem;
@@ -94,6 +97,10 @@
 	Configuration des langages
 */
 
+	#langages {
+		padding-top: 0;
+	}
+
 	#partie1, #partie2, #partie3 {
 		display: inline-block;
 		vertical-align: top;
@@ -136,79 +143,60 @@
 	    width: 89%;
 	    height: 100%;
 	    vertical-align: top;
+	    background-color: #e0e0e0;
 	    
+	}
+
+	.langages {
+		color : white;
+		/*text-align: center;*/
+		text-align: left;
+		padding-left: 1rem;
+		height:100%;
 	}
 
 	#barreHtml {
 		background: #e44c28;
-		/*display: inline-block;*/
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:75%;
 	}
 
 	#barreCss {
 		background: #1287c5;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:70%;
 	}
 
 	#barreJavascript {
 		background: #e6a12a;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:60%;
 	}
 
 	#barreJquery {
 		background: #c34144;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:60%;
 	}
 
 	#barreAjax {
 		background: #057dc5;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:50%;
 	}
 
 	#barrePhp {
 		background: #8ac71a;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:75%;
 	}
 
 	#barreSql {
 		background: #4474ca;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:70%;
 	}
 
 	#barreGit {
 		background: #f44f2b;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:60%;
 	}
 
 	#barreBootstrap {
 		background: #602c4f;
-		color : white;
-		text-align: center;
-	    height:100%;
 	    width:50%;
 	}
 
@@ -251,6 +239,13 @@
 	Configuration des centres d'interets
 */
 
+#centres_interets {
+	padding-bottom: 2rem;
 
+}
+
+.centres_interets {
+	margin-left: 2rem;
+}
 
 
