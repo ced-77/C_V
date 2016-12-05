@@ -29,7 +29,7 @@
 	h1 {
 		font-size: 3rem;
 		text-align: center;
-		margin-bottom: 1rem;
+		margin-bottom: 2rem;
 	}
 
 	h2 {
@@ -47,8 +47,10 @@
 	}
 
 	.civilite, #langages, #experiences, #formations, #centres_interets {
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 4%; /* marge pour PDF */
+		margin-right: 4%; /* marge pour PDF */
+		/*margin-left: 5%;/* /* marge pour site */
+		/*margin-right: 5%;/* /* marge pour site */
 
 	}
 
@@ -65,6 +67,10 @@
 	Presentation
 */
 
+	.civilite {
+		position: relative;
+	}
+
 	#nom, #prenom {
 		display: inline-block;
 		font-size: 2rem;
@@ -77,7 +83,11 @@
 	}
 
 	#permis {
-		text-align: right;
+		position: absolute;
+		/*text-align: right;*/
+		right: 0;
+		top: 0.4rem;
+
 	}
 
 	.coordonees{
@@ -124,10 +134,10 @@
 	}
 
 	.superConteneur {
-		height: 3rem;
-		width:28rem;
-		margin-bottom: .5rem;
-		font-size: 2.5rem;
+	    height: 2rem;
+	    width: 28rem;
+	    margin-bottom: .5rem;
+	    font-size: 1.7rem;
 	}
 
 	img {
@@ -177,27 +187,32 @@
 
 	#barreAjax {
 		background: #057dc5;
-	    width:50%;
+	    width:55%;
 	}
 
 	#barrePhp {
 		background: #8ac71a;
-	    width:75%;
+	    width:85%;
 	}
 
 	#barreSql {
 		background: #4474ca;
-	    width:70%;
+	    width:75%;
 	}
 
 	#barreGit {
 		background: #f44f2b;
-	    width:60%;
+	    width:65%;
 	}
 
 	#barreBootstrap {
 		background: #602c4f;
 	    width:50%;
+	}
+
+	#barreFrameWorkPhp {
+		background-color: grey;
+		width : 50%;
 	}
 
 
