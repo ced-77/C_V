@@ -49,8 +49,8 @@
 	.civilite, #langages, #experiences, #formations, #centres_interets {
 		margin-left: 4%; /* marge pour PDF */
 		margin-right: 4%; /* marge pour PDF */
-		/*margin-left: 5%;/* /* marge pour site */
-		/*margin-right: 5%;/* /* marge pour site */
+		margin-left: 5%; /* marge pour site */
+		margin-right: 5%; /* marge pour site */
 
 	}
 
@@ -108,7 +108,8 @@
 */
 
 	#langages {
-		padding-top: 0;
+		/*padding-top: 1rem;*/ /* Définition pour la PDF */
+		padding-top: 0;  /* Définition pour la mise en ligne */
 	}
 
 	#partie1, #partie2, #partie3 {
