@@ -131,6 +131,7 @@
 	}
 
 	img {
+		background-color: black;
 		display: inline-block;
 		height: 100%;
 		width: 2rem;
@@ -157,7 +158,7 @@
 
 	#barreHtml {
 		background: #e44c28;
-	    width:75%;
+	    width:80%;
 	}
 
 	#barreCss {
@@ -172,7 +173,7 @@
 
 	#barreJquery {
 		background: #c34144;
-	    width:60%;
+	    width:70%;
 	}
 
 	#barreAjax {
@@ -182,12 +183,12 @@
 
 	#barrePhp {
 		background: #8ac71a;
-	    width:75%;
+	    width:85%;
 	}
 
 	#barreSql {
 		background: #4474ca;
-	    width:70%;
+	    width:80%;
 	}
 
 	#barreGit {
@@ -198,6 +199,11 @@
 	#barreBootstrap {
 		background: #602c4f;
 	    width:50%;
+	}
+
+	#barreFrameWorkPhp {
+	    background: black;
+		width: 70%;
 	}
 
 
