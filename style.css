@@ -168,12 +168,12 @@
 
 	#barreJavascript {
 		background: #e6a12a;
-	    width:60%;
+	    width:50%;
 	}
 
 	#barreJquery {
 		background: #c34144;
-	    width:70%;
+	    width:50%;
 	}
 
 	#barreAjax {
@@ -183,12 +183,12 @@
 
 	#barrePhp {
 		background: #8ac71a;
-	    width:85%;
+	    width:60%;
 	}
 
 	#barreSql {
 		background: #4474ca;
-	    width:80%;
+	    width:60%;
 	}
 
 	#barreGit {
@@ -198,12 +198,12 @@
 
 	#barreBootstrap {
 		background: #602c4f;
-	    width:50%;
+	    width:40%;
 	}
 
 	#barreFrameWorkPhp {
 	    background: black;
-		width: 70%;
+		width: 50%;
 	}
 
 
