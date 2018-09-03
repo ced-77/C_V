@@ -156,24 +156,30 @@
 		height:100%;
 	}
 
+	/*
+		Ajustement des proportions des barres de langages
+		et de connaissance
+
+	*/
+
 	#barreHtml {
 		background: #e44c28;
-	    width:80%;
+	    width:60%;
 	}
 
 	#barreCss {
 		background: #1287c5;
-	    width:70%;
+	    width:60%;
 	}
 
 	#barreJavascript {
 		background: #e6a12a;
-	    width:50%;
+	    width:40%;
 	}
 
 	#barreJquery {
 		background: #c34144;
-	    width:50%;
+	    width:45%;
 	}
 
 	#barreAjax {
@@ -183,27 +189,27 @@
 
 	#barrePhp {
 		background: #8ac71a;
-	    width:60%;
+	    width:50%;
 	}
 
 	#barreSql {
 		background: #4474ca;
-	    width:60%;
+	    width:40%;
 	}
 
 	#barreGit {
 		background: #f44f2b;
-	    width:60%;
+	    width:40%;
 	}
 
 	#barreBootstrap {
 		background: #602c4f;
-	    width:40%;
+	    width:20%;
 	}
 
 	#barreFrameWorkPhp {
 	    background: black;
-		width: 50%;
+		width: 30%;
 	}
 
 
@@ -228,11 +234,11 @@
 		
 	}
 
-	.poste {
+	.nom_entreprise {
 		margin-left : 2rem;
 	}
 
-	.date, .nom_entreprise{
+	.date, .poste{
 		font-weight: bold;
 	}
 
