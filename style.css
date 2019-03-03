@@ -17,6 +17,7 @@
 	}
 
 	header, main, footer {
+		position: relative; /* mise en relative pour que #permis ne dépasses pas du cadre */
 		max-width: 95rem;
 		margin: auto;
 		/*padding: 0rem 2rem ;*/
@@ -24,7 +25,6 @@
 		background-color: whitesmoke;
 	
 	}
-
 
 	h1 {
 		font-size: 3rem;
@@ -42,8 +42,15 @@
 		padding-left: 2rem;
 	}
 
+	ul {
+		margin-left: 2rem;
+		padding-top: .5rem;
+		list-style: square;
+		}
+	
+
 	.section {
-		padding-top: 2rem;
+		padding-top: 0.5rem;
 	}
 
 	.civilite, #langages, #experiences, #formations, #centres_interets {
@@ -57,7 +64,9 @@
 		color:white;
 	}
 
-
+	.a_effacer {
+		display: none; /* Effacement des bloques obsoletes pour le moment */
+	}
 
 
 
@@ -69,6 +78,10 @@
 		display: inline-block;
 		font-size: 2rem;
 		font-weight: bold;
+	}
+
+	#adresse_2, #permis {
+		display: inline-block;
 		
 	}
 
@@ -77,14 +90,18 @@
 	}
 
 	#permis {
-		text-align: right;
+		position: absolute;
+		right: 0rem;
+		margin-right: 5%;
 	}
 
 	.coordonees{
-		background-color: navy;
+		background-color: #7171dd;
 		color: white;
 		text-align: center;
 		font-size: 2rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 	}
 
 	.coordonees p {
@@ -99,6 +116,7 @@
 
 	#langages {
 		padding-top: 0;
+		margin-bottom: 1.5rem;
 	}
 
 	#partie1, #partie2, #partie3 {
@@ -197,6 +215,11 @@
 	    width:40%;
 	}
 
+	#barreJava {
+		background: #88c0de;
+		width:30%;
+	}
+
 	#barreGit {
 		background: #f44f2b;
 	    width:40%;
@@ -235,7 +258,7 @@
 	}
 
 	.nom_entreprise {
-		margin-left : 2rem;
+		margin-left : 0.2rem;
 	}
 
 	.date, .poste{
@@ -252,12 +275,16 @@
 */
 
 #centres_interets {
-	padding-bottom: 2rem;
+	/*padding-bottom: 2rem;*/
 
 }
 
 .centres_interets {
 	margin-left: 2rem;
+}
+
+#centres_interets ul {
+	list-style: none;
 }
 
 
